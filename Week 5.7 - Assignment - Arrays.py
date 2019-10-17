@@ -24,6 +24,7 @@ def get_menu():
 
 #Define the functions to cover all the options except for option 8 (seems like an overkill to define a function that just prints the array)
 def new_array(array_size):
+    user_array.clear()
     for i in range (array_size):
         user_array.append(random.randint(1,100))
 
